@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>My Photo Slides</title>
+	<style type="text/css"/>
+	/* Basic Styling */
+body{
+	background: url(images/bg.png) #FFF;
+	font:15px/2 'Adobe Caslon Pro', Georgia, Serif;
+	margin:0;
+	padding:0;
+}
+a{outline:0 none}
+#pagewrap{
+	margin:70px auto 0;
+	padding:0;
+	position:relative;
+	height:400px;
+	width: 640px;
+}
+
+#slidewrap{position:absolute;}
+#slider {
+    border-color: #c0c0c0;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 10px 10px 30px;
+    box-shadow: 0 0 3px #2F2F2F;
+    height: 280px;
+    margin: 10px;
+    position: relative;
+    width: 600px;
+}
+#slider images{
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider images {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.nivo-directionNav{display:none!important}
+.nivo-html-caption {
+    display:none;
+}
+.nivo-caption{
+	position:absolute;
+	right:20px;
+	text-align:center;
+	top:130px;
+	width:192px;
+	z-index:60;
+}
+.nivo-caption p{margin:0}
+.nivo-caption .title{font-style:italic}
+.nivo-controlNav {
+    bottom: -23px;
+    display: block;
+    height: 15px;
+    left: 204px;
+    position: absolute;
+    text-align: center;
+    width: 192px;
+    z-index: 51;
+	opacity: 0.6;
+}
+.nivo-controlNav a{
+	background:transparent url(images/button.png) no-repeat center center;
+	display:inline-block;
+	height:14px;
+	width:14px;
+	text-indent:-9999px;
+	cursor:pointer;
+}
+.nivo-controlNav .active{
+	background:transparent url(images/button_active.png);	
+}
+	</style>
+	<script src="jquery-1.6.1.min.js" type="text/javascript"></script>
+	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider();
+	});
+	</script>
+	<!--[if IE]>
+		<script src="modernizr-2.0.min.js"></script>
+	<![endif]--> 		
+</head>
+
+<body>
+<div id="pagewrap">
+<div id="slidewrap">
+	<div id="slider">
+	<a href="http://dimpost.com/" target="_blank"><img alt="" title="#caption1" src="images/sample0.jpg" /></a>
+	<a href="#" target="_blank"><img alt="" title="#caption2" src="images/sample1.jpg" /></a>
+	<a href="#" target="_blank"><img alt="" title="#caption3" src="images/sample2.jpg" /></a>
+	<a href="#" target="_blank"><img alt="" title="#caption4" src="images/sample3.jpg" /></a>
+	<a href="#" target="_blank"><img alt="" title="#caption5" src="images/sample4.jpg" /></a>
+	<a href="#" target="_blank"><img alt="" title="#caption6" src="images/sample5.jpg" /></a>
+	</div>
+</div>
+</div>
+</body>
+</html>
