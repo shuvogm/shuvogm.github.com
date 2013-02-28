@@ -31,6 +31,12 @@ h1, h2, h3, h4, h5, h6, p {
 h1 {
 font-size:24px;
 }
+h2 {
+font-size:18px;
+}
+h3 {
+font-size:16px;
+}
 a img { 
 	border: none;
 }
@@ -40,10 +46,10 @@ a:link {
 	text-decoration: none; 
 }
 a:visited {
-	color: #4E5869;
-	text-decoration: underline;
+	color:#0066cc;
 }
 a:hover, a:active, a:focus { 
+	color: #e84141;
 	text-decoration: none;
 }
 
@@ -90,7 +96,7 @@ height: 100px;
     font: italic 16px/120% Baskerville,"Times New Roman",Times,serif;
     margin: 0 0 10px;
     padding: 0 0 10px 2px;
-    text-shadow: none;
+    text-shadow: 0 1px 0 #FFFFFF;
 }
 
 
@@ -130,7 +136,9 @@ padding-right: 10px;
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; 
 }
-
+.content li { 
+line-height: 30px; 
+}
 
 ul.nav {
 	list-style: none; 
@@ -273,9 +281,11 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
 		<li><a href="http://#">jQuery</a></li>
 	</ul>
 </li>
+<li><a href="http://#">HTML</a></li>
 <li><a href="http://#">CSS</a></li>
 <li><a href="http://#">JavaScript</a></li>
 <li><a href="http://#">jQuery</a></li>
+<li><a href="http://#">Tools</a></li>
 </li>
 </ul>
 </div> 
@@ -304,9 +314,19 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
   <div id="content-container">
   <div class="content">
     <h1>Welcome to DIMPost.com's project homepage.</h1>
-    <p>Nivo Slider - jQuery Image Slider</p>
-    <p>JavaScript Image Slider</p>
-    <p>Pure CSS Image Slider    </p>
+    <h2>Projects</h2>
+    <ul>
+    <li><a href="#" target="_blank"><a href="#" target="_blank">Pure CSS Image Slider</a></a></li>
+    <li><a href="#" target="_blank">JavaScript Image Slider</a></li>
+    <li><a href="#" target="_blank">Nivo Slider - jQuery Image Slider</a></li>   
+</ul>
+    <br/>
+    <h3>Image Slider for Blogger/Blogspot</h3>
+<ul>
+    <li><a href="#" target="_blank">Add Pure CSS Image Slider to Blogger</a></li>
+    <li><a href="#" target="_blank">Add JavaScript Image Slider to Blogger</a></li>
+    <li><a href="#" target="_blank">Add  jQuery Image Slider(Nivo Slider) to Blogger</a></li>  
+</ul>
   </div>
     </div>
 
