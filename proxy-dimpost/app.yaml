@@ -1,0 +1,15 @@
+application: proxy-dimpost
+version: 2
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  mime_type: image/x-icon
+
+- url: /.*
+  script: mirror.py
+  secure: optional
+  
