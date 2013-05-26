@@ -1,0 +1,22 @@
+
+body {
+    background: none repeat scroll 0 0 #D7D7D7;
+}
+.slider-box {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px #333333;
+    margin: 0 auto;
+    width: 767px;
+}
+#slider-wrapper {
+    margin: 0 auto;
+    padding: 10px;
+}
+#jslider-container {
+    border: 2px solid #FFFFFF;
+    max-width: 640px;
+    position: relative;
+    text-align: left;
+    z-index: 90;
+}

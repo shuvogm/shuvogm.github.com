@@ -1,0 +1,75 @@
+body {
+    background: #FF;
+    font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(images/body_bg.png);
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+	width: 960px;
+	margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: block;
+    transition: all 0.9s ease 0s;
+}
+p {
+    color: #87859D;
+}
+h2 {
+    color: #FF7200;
+    font-size: 20px;
+    line-height: 15px;
+}
+a {
+    color: #FF7200;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF7200;
+    text-decoration: none;
+}
+.fix {
+    overflow: hidden;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.navbar {
+    background: none repeat scroll 0 0 #000000;
+}
+.navbar li {
+    float: left;
+    list-style: none outside none;
+}
+.navbar li a:visited, .navbar li a:hover, .navbar li a:focus {
+    background: none repeat scroll 0 0 #0000FF;
+}
+
+.navbar li a {
+    display: block;
+    font: 14px/16px arial;
+    padding: 14px;
+    color: #fff;
+}
+.main-wrapper {
+	margin: 0 10px;
+}
+.logo {
+	padding: 0;
+	margin: 20px 0;
+}
