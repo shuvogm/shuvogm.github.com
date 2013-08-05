@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contact@dimpost.com";
-    $email_subject = "Your email subject line";
+    $email_to = "shuvogm@gmail.com";
+    $email_subject = "Test subject internal";
      
      
     function died($error) {
