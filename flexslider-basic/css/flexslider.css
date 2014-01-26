@@ -23,7 +23,7 @@
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {margin: 0; padding: 0; overflow: hidden;}
+.flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
@@ -51,9 +51,9 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav a  { text-decoration:none; display: block; width: 40px; height: 45px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
 .flex-direction-nav .flex-prev { background: url("../img/arrows1.png") no-repeat scroll -15px -92px transparent; left: -50px; }
 .flex-direction-nav .flex-next { background: url("../img/arrows1.png") no-repeat scroll -15px -15px transparent; right: -50px; text-align: right; }
-.flexslider:hover .flex-prev { opacity: 0.3; left: 10px; }
-.flexslider:hover .flex-next { opacity: 0.3; right: 10px; }
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 0.6; }
+.flexslider:hover .flex-prev { opacity: 0.5; left: 10px; }
+.flexslider:hover .flex-next { opacity: 0.5; right: 10px; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 0.8; }
 
 
 /* Pause/Play */
