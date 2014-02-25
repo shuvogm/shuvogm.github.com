@@ -58,7 +58,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-next { background: url("../img/arrows1.png") no-repeat scroll -15px -15px transparent; right: -50px; text-align: right; }
 .flexslider:hover .flex-prev { opacity: 0.5; left: 10px; }
 .flexslider:hover .flex-next { opacity: 0.5; right: 10px; }
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 0.8; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 0.9; }
 
 
 /* Pause/Play */
