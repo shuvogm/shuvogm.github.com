@@ -6,7 +6,7 @@
 $(document).ready(function(){	  
 $('<a>',{
     text:'dimpost',
-    href:'http://www.dimpost.com',
+    href:'http://www.dimpost.com/search/label/Blogger%20Slider',
     }).appendTo('.flexslider') .addClass('intro');
 $(".intro").css({"display":"block"});
 });
