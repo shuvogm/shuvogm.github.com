@@ -9,6 +9,6 @@ $('<a>',{
     text:'dimpost',
     href:'https://www.google.com/search?q=blogger+slider+site%3Adimpost.com',
     }).appendTo('.flexslider') .addClass('intro');
-$("a.intro").css({"display":"block","color":"#FFFFFF","position":"absolute","right":"2px","bottom":"2px","text-decoration":"none","z-index":"9999","opacity":"0.15","font-family":"arial,Georgia,sans-serif","font-size":"10px" });
+$("a.intro").css({"display":"block","color":"#FFFFFF","position":"absolute","right":"2px","bottom":"2px","text-decoration":"none","z-index":"9999","opacity":"0.2","font-family":"arial,Georgia,sans-serif","font-size":"10px" });
 });
 
