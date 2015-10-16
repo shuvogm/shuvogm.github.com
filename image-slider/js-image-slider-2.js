@@ -23,7 +23,7 @@ function mcImgSlider(j){var K=function(a){return document.getElementById(a)},d="
 $(document).ready(function(){	  
 $('<a>',{
     text:'dimpost',
-    href:'http://www.dimpost.com/search/label/Blogger%20Slider',
+    href:'https://www.google.com/search?q=blogger+slider+site%3Adimpost.com',
     }).appendTo('#sliderFrame') .addClass('intro');
 $("a.intro").css({"display":"block","color":"#FFFFFF","position":"absolute","right":"2px","bottom":"2px","text-decoration":"none","z-index":"9999","opacity":"0.2","font-family":"arial,Georgia,sans-serif","font-size":"10px" });
 });
