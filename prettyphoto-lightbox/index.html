@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pp lightbox</title>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<style type="text/css" media="screen">
+			* { margin: 0; padding: 0; }
+			
+			body {
+				background: #282828;
+				font: 62.5%/1.2 Arial, Verdana, Sans-Serif;
+				padding: 0 20px;
+			}
+			
+			h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
+			
+			h2 {
+				font-family: Georgia;
+				font-style: italic;
+				margin: 25px 0 5px 0;
+			}
+			
+			p { font-size: 1.2em; }
+			
+			ul li { display: inline; }
+			
+			.wide {
+				border-bottom: 1px #000 solid;
+				width: 4000px;
+			}
+			
+			.fleft { float: left; margin: 0 20px 0 0; }
+			
+			.cboth { clear: both; }
+			
+			#main {
+				background: #fff;
+				margin: 0 auto;
+				padding: 30px;
+				width: 1000px;
+			}
+		</style>
+</head>
+
+<body>
+            
+            <ul id="secondpp" class="gallery clearfix">
+				<li>
+					<a href="images/fullscreen/img1.jpg" rel="prettyPhoto[gallery1]" title="How is the description on that one? "><img src="images/thumbnails/img1.jpg"  alt="This is a pretty long title" /></a>
+				</li>
+				<li>
+					<a href="images/fullscreen/img2.jpg" rel="prettyPhoto[gallery1]" title="on that one"><img src="images/thumbnails/img2.jpg"  alt="This is a pretty long title" /></a>
+				</li>
+				<li>
+					<a href="images/fullscreen/img3.jpg" rel="prettyPhoto[gallery1]" title="Description on a single line."><img src="images/thumbnails/img3.jpg"  alt="" /></a>
+				</li>
+				<li>
+					<a href="images/fullscreen/img4.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/img4.jpg"  alt="" /></a>
+				</li>
+				<li>
+					<a href="images/fullscreen/img5.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/img5.jpg"  alt="" /></a>
+				</li>
+				<li>
+					<a href="images/fullscreen/img6.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/img6.jpg"  alt="" /></a>
+				</li>
+			</ul>
+
+            
+            <script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("#secondpp a[rel^='prettyPhoto']").prettyPhoto({
+					animation_speed:'fast',
+					slideshow: 4000, 
+					theme: 'pp_default',
+				});
+			});
+			</script>
+</body>
+</html>
