@@ -2,7 +2,7 @@
 <html> 
 <head> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
-    <title>Camera Slideshow DEMO - DIMPost</title> 
+    <title>DEMO: Camera Slideshow - DIMPost</title> 
     <meta name="description" content="Camera slideshow a free responsive slideshow jQuery Plugin"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -10,28 +10,7 @@
     <!--   Styles  --> 
     
     <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
-    <style>
-		body {
-			margin: 0;
-			padding: 0;
-			font-family: "Open Sans", sans-serif, Arial;
-			font-size: 16px;
-		}
-		.fluid_container {
-			margin: 0 auto;
-			max-width: 900px;
-			width: 90%;
-		}
-		h3, h4 {
-			color: #666;
-			text-align:center;
-			margin: 1em;
-		}
-		h4 {
-			font-weight: 400;
-			line-height: 0.5em;
-		}
-	</style>
+    <link href="css/demo-css.css" rel="stylesheet" type="text/css">
 
 
     <!-- Scripts --> 
@@ -50,7 +29,8 @@
 				thumbnails: false, // thumnails & tooltip is controlled by it
 				pagination: true, // only when "pagination" is set to "false" thumbnails will be visible
 				/*fx: 'curtainSliceRight, mosaicRandom, mosaicSpiralReverse, blindCurtainTopLeft', stampede, topLeftBottomRight*/
-				fx: 'curtainTopLeft, curtainTopRight, curtainBottomLeft, curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight, blindCurtainSliceBottom, blindCurtainSliceTop, stampede, mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse, topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight, bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop'
+				fx: 'curtainTopLeft, curtainTopRight, curtainBottomLeft, curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight, blindCurtainSliceBottom, blindCurtainSliceTop, stampede, mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse, topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight, bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop',
+				hover: false
 			});
 		});
 	</script>
@@ -62,7 +42,7 @@
     	<h3>Responsive "Camera Slideshow" Demo</h3>
     	<h4>Please resize browser window to see responsiveness / fluidness </h4>
           <div class="topNav" style="text-align: center">
-            <a href="demo.html">Demo 0</a> |
+            <a class="active" href="demo.html">Demo 0</a> |
             <a href="demo-1.html">Demo 1</a> |
             <a href="demo-2.html">Demo 2</a>
           </div>
@@ -100,5 +80,9 @@
         
     </div><!-- .fluid_container -->    
     <div style="clear:both; display:block; height:100px"></div>
+    <div class="topNav">
+  	  <center><a href="#">Back To Blogger Slideshow Tutorial</a></center>
+    </div>
+    <div style="clear:both; display:block; height:50px"></div>
 </body> 
 </html>
