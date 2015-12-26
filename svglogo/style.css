@@ -1,0 +1,13 @@
+#svg-logo {
+    max-width: 600px;
+    margin: 0 auto;
+    min-width: 260px;
+}
+
+/* logo color */
+svg #cirtuits-path {
+    fill: #009cff;
+}
+svg #tune-path {
+    fill: #ff9500;
+}
