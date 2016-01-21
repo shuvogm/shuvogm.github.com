@@ -1,0 +1,13 @@
+{
+    "people": {
+        "person": [{
+            "roll": "123456",
+            "age": 43,
+            "sex": "male"
+        }, {
+            "roll": "654321",
+            "age": 65,
+            "sex": "female"
+        }]
+    }
+}
