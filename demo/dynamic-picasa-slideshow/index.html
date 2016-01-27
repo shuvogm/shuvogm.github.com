@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Slideshow From Picasa Album</title>
+</head>
+
+<body style="background: #272727; margin: 10px">
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="flexslider.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery.flexslider-min.js"></script>
+    <!--CDNize-->
+    <!--     
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.1/jquery.flexslider-min.js"></script>
+    -->
+    <script type="text/javascript" src="jquery.bdslider.js"></script>
+    <style type="text/css">
+    /* Preloader */
+    
+    .flexslider.loading:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url(http://2.bp.blogspot.com/-VIBi25ASOWI/VjfHfu8bVTI/AAAAAAAAFMU/JK6of4mMjCo/s1600/loading.gif) no-repeat center center;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 9999;
+    }
+    
+    .flexslider.loading ul.flex-direction-nav,
+    .flexslider.loading ol,
+    .loading .flex-caption {
+        display: none;
+    }
+    
+    .flexslider {
+       /* border: 1px solid #AFAFAF; */
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        margin: 0 auto 60px auto;
+    }
+    
+    .flexslider a {
+        text-decoration: none;
+    }
+    
+    .flex-direction-nav a:before {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    /* blogger css conflicts fix */
+    
+    .flexslider ul {
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: initial !important;
+    }
+    
+    .flexslider ul.flex-direction-nav li {
+        margin: 0;
+        padding: 0;
+        line-height: initial;
+    }
+    
+    .flexslider ul li {
+        margin-bottom: 0 !important;
+    }
+    
+    .flexslider img {
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    ul.flex-direction-nav {
+        position: static;
+    }
+    
+    ul.flex-direction-nav li {
+        position: static;
+    }
+    
+    .flex-control-nav {
+        bottom: -60px;
+    }
+    
+    .flexslider {
+        border: 10px solid rgb(57, 57, 57);
+    }
+    </style>
+    <div id="slider2"></div>
+    <!--
+    <div id="slider1"></div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#slider1").BloggerDynamicSlider({
+            imageWidth: 900,
+            imageHeight: 400,
+            maxItem: 5,
+            blogURL: "http://labelpost.blogspot.com",
+            animation: "fade",
+            postTitleStyle: "overlayLight",
+
+        });
+    });
+    </script>
+-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#suckit").BloggerDynamicSlider({
+            imageWidth: 720,
+            imageHeight: 540,
+            animation: "slide",
+        });
+
+    });
+    </script>
+    <div>
+        <div id="testing">
+            <div>
+                <div>
+                    <div id="suckit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
