@@ -1,0 +1,39 @@
+body {
+    margin: 0px auto;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+header {
+    background: #F0F0F0;
+    padding: 50px;
+    border-bottom: 2px dashed #d5d5d5;
+}
+
+header h1 {
+    font-size: 2.4em;
+    color: #444;
+    line-height: 1em;
+}
+
+header p {
+    font-style: italic;
+    color: #999;
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.item {
+    display: inline-block;
+    width: 32.94%;
+}
+
+@media (max-width: 900px) {
+    .item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
